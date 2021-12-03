@@ -20,7 +20,7 @@ const Home = () => {
             <div class="container">
                 <div className='header'>
                     <p className='header-name'>Jonathan Nguyen </p>
-                    <div className='Header-About'> Software Developer | Atlanta, GA <br /></div>
+                    <div className='Header-About'> Software Developer | ATL, GA <br /></div>
 
                 </div>
 
@@ -77,7 +77,7 @@ const Home = () => {
 
                 </div>
 
-                <div className='footer'>A labor of <span style={{color: 'red'}}>love</span>. Made with React and CSS. Hosted with Kubernetes, Docker and GCP.</div>
+                <div className='footer'>A labor of <span style={{color: 'red'}}>love</span>. Made with React and CSS. Hosted with AWS.</div>
             </div>
 
         </Router>
