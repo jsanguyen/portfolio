@@ -5,7 +5,7 @@ const Devops = () =>{
 
     return(
         <div className='routeComp'>
-            <p className='feHeader'> 3 Years - Docker • Kubernetes • Google Cloud • Terraform • AWS </p>
+            <p className='feHeader'> 4 Years - Docker • Kubernetes • Google Cloud • Terraform • AWS </p>
             <p className='feParagraph'>
                 • Maintained and deployed apps with GCP Kubernetes. Use Gcloud CLI to push and manage images into Google Cloud.
             </p>
