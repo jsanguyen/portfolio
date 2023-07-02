@@ -1,17 +1,17 @@
 .routeComp {
-    grid-column: 2;
-    grid-row: 2;
-    padding-right: 20.5%;
+  grid-column: 2;
+  grid-row: 2;
+  padding-right: 20.5%;
 }
 .splashHeader {
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    font-weight: 500;
-    font-variant-ligatures: normal;
-    font-size: 1.25rem;
-    letter-spacing: 1px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 500;
+  font-variant-ligatures: normal;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
 }
 
-.splahParagraph{
-    font-weight: 400;
-    padding-top: 2%;
+.splahParagraph {
+  font-weight: 400;
+  padding-top: 2%;
 }

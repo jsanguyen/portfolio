@@ -1,19 +1,19 @@
 .feHeader {
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    font-weight: 400;
-    font-variant-ligatures: normal;
-    font-size: 1.05rem;
-    letter-spacing: 1px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 400;
+  font-variant-ligatures: normal;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
 }
 
 .feProjects {
-    font-family: "Helvetica Neue", "Arial", sans-serif;
-    font-size: 1.15rem;
-    letter-spacing: 1px;
-    margin-left: 25%;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  margin-left: 25%;
 }
 
-.feParagraph{
-    font-weight: 300;
-    padding-top: 2%;
+.feParagraph {
+  font-weight: 300;
+  padding-top: 2%;
 }
