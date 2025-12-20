@@ -7,7 +7,6 @@ frontend:
         - npm ci --cache .npm --prefer-offline
     build:
       commands:
-        # Senior Tip: Explicitly inject env vars for Server Components/Actions
         - env >> .env.production
         - nvm use 20
         - npm run build
