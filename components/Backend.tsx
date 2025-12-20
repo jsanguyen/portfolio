@@ -1,5 +1,4 @@
-import React from "react";
-import "../CSS/FrontEnd.css";
+import "../app/globals.css";
 
 const Backend = () => {
   return (
