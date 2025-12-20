@@ -1,5 +1,5 @@
-import React from "react";
-import "../CSS/FrontEnd.css";
+import "../app/globals.css";
+
 const Frontend = () => {
   return (
     <div className="routeComp">

@@ -1,5 +1,4 @@
-import React from "react";
-import "../CSS/Splash.css";
+import "../app/globals.css";
 
 const Splash = () => {
   return (
