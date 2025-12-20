@@ -3,9 +3,11 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm use 20 # Forces Amplify to use Node 20
         - npm ci
     build:
       commands:
+        - nvm use 20
         - npm run build
   artifacts:
     baseDirectory: .next
