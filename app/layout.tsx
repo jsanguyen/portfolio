@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavLinks from "@/components/NavLinks"; 
+import ProjectDropdown from "@/components/ProjectDropdown";
 
 export const metadata: Metadata = {
   title: "Jonathan Nguyen | Senior Software Engineer",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <img src="/linkedin-logo-32px.png" alt="LinkedIn" />
               </a>
             </div>
+            <ProjectDropdown />
           </div>
 
           <div className="footer">
