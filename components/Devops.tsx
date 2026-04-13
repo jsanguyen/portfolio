@@ -1,33 +1,38 @@
 import "../app/globals.css";
 
-
 const Devops = () => {
   return (
     <div className="routeComp">
       <p className="feHeader">
         {" "}
-        4 Years - Docker • Kubernetes • Google Cloud • Terraform • AWS{" "}
+        Azure • AWS • Google Cloud • Kubernetes • Terraform • CI/CD Pipelines • Bash • Prometheus • Datadog • Azure Application Insights • ARM/Bicep • Linux • Windows Server • YAML
       </p>
       <p className="feParagraph">
-        • Maintained and deployed apps with GCP Kubernetes. Use Gcloud CLI to
-        push and manage images into Google Cloud.
-      </p>
-
-      <p className="feParagraph">
-        • Web apps and back end applications dockerized as part of deployment
-        process. Experience working on and building Dockerfiles for react and
-        Scala applications.
+        • Architected and maintained automated, declarative CI/CD pipelines in
+        Azure DevOps to build container images and deploy workloads to Kubernetes
+        clusters with zero-downtime.
       </p>
 
       <p className="feParagraph">
-        • Used Terraform to create and deploy complete environments for Spark
-        processes to run in.
+        • Provisioned resilient cloud infrastructure across GCP and AWS using
+        Terraform, managing state and automating the deployment of compute
+        instances, VPCs, and secure network boundaries.
       </p>
 
       <p className="feParagraph">
-        • Certified AWS pracitcioner. Built, deployed and maintained
-        applications with tools such as CodePipeline, CloudFormation and
-        Amplify.
+        • Engineered disaster recovery strategies by creating and maintaining a
+        repository of version-controlled ARM templates for rapid redeployment.
+      </p>
+
+      <p className="feParagraph">
+        • Implemented strict least-privilege IAM and RBAC security models to
+        govern all service-to-service connections and cluster deployments.
+      </p>
+      
+      <p className="feParagraph">
+        • Integrated comprehensive telemetry and Aqua Security vulnerability
+        scanning directly into the build process, enforcing a 'shift-left'
+        security posture.
       </p>
     </div>
   );

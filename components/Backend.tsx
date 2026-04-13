@@ -5,31 +5,29 @@ const Backend = () => {
     <div className="routeComp">
       <p className="feHeader">
         {" "}
-        4 Years - Scala • Node.js • Firebase • Oracle • MongoDB
+        Go (Golang) • Node • Python • PostgreSQL • MongoDB • Cosmos DB • Azure SQL
       </p>
       <p className="feParagraph">
-        • Developed, tested and maintained Kubernetes job-based Scala pipelines
-        to different carriers such as Nationwide, FSL and Chubb. Applications
-        deployed and managed via Kubernetes and GCP. All apps dockerized and
-        deployed into GCP Kubernetes.
-      </p>
-
-      <p className="feParagraph">
-        • Create SQL powered REST endpoints with Scala and utilized these
-        endpoints for our frontend applications. Endpoints protected with role
-        based authentication and managed inside GCP Kubernetes.
+        • Spearheaded the architecture and development of backend services,
+        establishing best practices and serving as the subject matter expert for
+        multiple Node.js microservices.
       </p>
 
       <p className="feParagraph">
-        • Built file ingress applications within in-house Spark applications.
-        Used Apache Spark and Scala to generate eligibility files from BigQuery
-        data.
+        • Architected and maintained mission-critical internal services using Go
+        (Golang), integrating with SQL databases and Azure DevOps APIs to
+        securely process, sanitize, and hydrate data.
       </p>
 
       <p className="feParagraph">
-        • Wrote and developed job-based SQL reports for internal employees. Sql
-        queries were sent to inhouse Scala Application that generated a data
-        report for users from in-house buot UIs
+        • Authored end-to-end data pipelines in Scala, responsible for the
+        efficient ingestion of data from multiple sources into various data
+        storage solutions.
+      </p>
+
+      <p className="feParagraph">
+        • Designed scalable data models and integrated third-party APIs, taking
+        end-to-end ownership from development and testing to deployment.
       </p>
     </div>
   );

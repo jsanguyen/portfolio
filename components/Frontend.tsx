@@ -5,42 +5,29 @@ const Frontend = () => {
     <div className="routeComp">
       <p className="feHeader">
         {" "}
-        4 Years - React.js • JavaScript • HTML • CSS • FireBase
+        TypeScript • React.js • JavaScript • HTML • CSS
       </p>
       <p className="feParagraph">
-        • Designed, developed, tested and maintained multiple role-based React
-        web portals for external clients and brokers. These web portals
-        contained various tools that allowed clients and brokers to manage their
-        members healthcare coverages and employee counts.
-      </p>
-
-      <p className="feParagraph">
-        • Tools built included; Data tables for displaying all employees of
-        group as well as their employee information. Eligibility forms that
-        allowed clients to add new employees to their groups and select their
-        repsective heath care products. Custom document manager that allowed
-        internal employees to save custom files and documents tosecure firebase
-        folders for each respective group to see. Utilized Firebase rules to for
-        secure management of files and documents.
+        • Extensive Frontend work with React-based applications, building several
+        internal and external services to help facilitate customer engagement
+        and internal productivity.
       </p>
 
       <p className="feParagraph">
-        • Developed and maintained internal web applications that served as data
-        reporting tools for employees to use. Resulted in drastic reduction of
-        burn time as manual processes were automated and visualized for
-        employees. These tools included data visualization of group censuses,
-        reporting tables for claims cost for groups or specific employees,
-        claims information for specific claims and additional data visualization
-        for other reports that were based on SQL demands and asks.
+        • Engineered a customer portal for 100,000+ users utilizing React and
+        TypeScript, leveraging Kubernetes for dynamic scaling and monitoring to
+        eliminate performance slowdowns.
       </p>
 
       <p className="feParagraph">
-        • Web apps were built with Material UI and additional custom CSS with
-        responsive design in mind. UI applications connected with Firebase SDK
-        as well as inhouse REST endpoints.{" "}
+        • Maintained applications, monitored cloud deployment and usage, and
+        load-balanced apps to scale with growing user access demands.
       </p>
+
       <p className="feParagraph">
-        • All apps dockerized and deployed into GCP Kubernetes.
+        • End-to-end ownership of frontend architecture, integrating securely
+        with backend services, REST APIs, and third-party integrations to
+        deliver seamless user experiences.
       </p>
     </div>
   );
