@@ -34,6 +34,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <img src="/linkedin-logo-32px.png" alt="LinkedIn" />
               </a>
             </div>
+
+            <div style={{ marginTop: "20px" }}>
+              <a 
+                href="https://resume-482017663846-us-east-2-an.s3.us-east-2.amazonaws.com/Jonathan+Nguyen+-+Resume+(2026).docx" 
+                download 
+                className="resume-button"
+              >
+                Download Resume
+              </a>
+            </div>
           </div>
 
           <div className="footer">

@@ -295,6 +295,27 @@ html {
   margin: 0;
 }
 
+.resume-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #3f0d0d;
+  border: 1.5px solid #3f0d0d;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.resume-button:hover {
+  background-color: #3f0d0d;
+  color: white;
+}
+
 body {
   overflow-x: hidden;
   width: 100%;
