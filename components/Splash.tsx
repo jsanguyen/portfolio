@@ -11,17 +11,17 @@ const Splash = () => {
       </p>
 
       <p className="splahParagraph">
-        Writing code is what I do for a living and as a hobby. I have 6 years of
-        experience working on/with a myriad of technical tools and ecosystems to
-        build better services for external clients and internal users. You can
-        found out more about the tools I've used with the left hand nav bar.{" "}
+        Writing code is what I do for a living and as a hobby. I am a Full-stack
+        Software Engineer with 8 years of experience architecting highly
+        available, cloud-native infrastructure and building resilient systems.
+        You can find out more about the tools I've used with the left hand nav bar.{" "}
       </p>
       <p className="splahParagraph">
-        My experience includes architecting web portals that serves hundreds of
-        thousands of clients for healthcare coverage and eligibility, complex
-        data analytics processing and sanitation with various backend tools, and
-        end-to-end cloud management of applications and architect with varoius
-        cloud ecosystems.
+        My experience includes architecting web portals that serve hundreds of
+        thousands of users, building resilient Go, Node.js, and TypeScript
+        systems, and automating zero-downtime CI/CD pipelines across GCP, Azure,
+        and AWS. I also have a strong focus on Infrastructure as Code (Terraform)
+        and enforcing least-privilege security models in production environments.
       </p>
     </div>
   );

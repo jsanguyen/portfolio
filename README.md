@@ -1,6 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jonathan Nguyen's Portfolio
 
-## Getting Started
+Welcome to the repository for my personal portfolio website! This project is built using [Next.js](https://nextjs.org) and showcases my 8 years of experience as a Full-stack Software Engineer.
+
+## About Me
+
+I am a Full-stack Software Engineer with 8 years of experience architecting highly available, cloud-native infrastructure across GCP and Azure. My proven expertise includes building resilient Go, K8s, and TypeScript/JavaScript systems and automating zero-downtime CI/CD pipelines. I have a strong focus on Infrastructure as Code (Terraform), observability, and enforcing least-privilege security models in production environments.
+
+### Core Technologies
+*   **Frontend:** TypeScript, React.js, JavaScript, HTML, CSS
+*   **Backend:** Go (Golang), Node.js, Python, PostgreSQL, MongoDB, Cosmos DB, Azure SQL
+*   **DevOps & Infrastructure:** Azure, AWS, Google Cloud, Kubernetes, Terraform, CI/CD Pipelines, Bash, Prometheus, Datadog, Azure Application Insights, ARM/Bicep, Linux, Windows Server, YAML
+
+## Getting Started with this Project
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
@@ -18,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Geist, a new font family for Vercel.
 
 ## Learn More
 
