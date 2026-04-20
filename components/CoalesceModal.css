@@ -1,0 +1,259 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  position: relative;
+  width: 100%;
+  max-width: 48rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-radius: 0.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  outline: none;
+  border: 1px solid #333;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: #613f3f;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.modal-subtitle {
+  font-size: 0.85em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.modal-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1.5rem;
+}
+
+.modal-tab-btn {
+  padding: 8px 20px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.modal-tab-btn.active {
+  border-bottom-color: #4ecca3;
+  color: #4ecca3;
+  font-weight: 600;
+}
+
+.modal-section {
+  margin-bottom: 1.5rem;
+}
+
+.modal-section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #4ecca3;
+}
+
+.modal-section-title.small {
+  margin-bottom: 0.5rem;
+}
+
+.modal-text {
+  line-height: 1.6;
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.modal-card {
+  padding: 0.75rem;
+  background-color: #2d2d2d;
+  border-radius: 0.5rem;
+  border: 1px solid #444;
+}
+
+.modal-card-title {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.modal-card-desc {
+  font-size: 0.85em;
+  color: #aaa;
+}
+
+.modal-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.modal-list-item {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.modal-list-num {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: #4ecca3;
+  font-size: 0.9em;
+}
+
+.modal-list-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.modal-list-desc {
+  font-size: 0.9em;
+  color: #bbb;
+  line-height: 1.5;
+}
+
+.modal-features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.modal-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85em;
+  color: #ccc;
+}
+
+.modal-feature-icon {
+  color: #4ecca3;
+}
+
+.arch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.arch-node {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 2px solid;
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  min-width: 120px;
+}
+
+.arch-node.wide { min-width: 200px; }
+.arch-node.xwide { min-width: 220px; }
+
+.arch-node-user { border-color: #4ecca3; }
+.arch-node-lambda { border-color: #f0a500; }
+.arch-node-abuse { border-color: #e74c3c; }
+.arch-node-router { border-color: #9b59b6; }
+.arch-node-tech { border-color: #3498db; }
+.arch-node-devil { border-color: #e67e22; }
+.arch-node-expert { border-color: #2ecc71; }
+.arch-node-judge { border-color: #f39c12; }
+
+.arch-node-desc {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #aaa;
+  margin-top: 4px;
+}
+.arch-node-desc.light {
+  color: #ffffff;
+}
+
+.arch-arrow {
+  color: #555;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.arch-label {
+  font-size: 0.65em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.arch-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.arch-legend {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  border: 1px solid #444;
+  width: 100%;
+}
+
+.arch-legend-title {
+  font-size: 0.75em;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.arch-legend-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  font-size: 0.8em;
+  color: #ccc;
+}
