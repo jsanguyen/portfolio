@@ -95,13 +95,19 @@ html {
 }
 
 .NavItem {
-  padding-top: 10px;
+  padding-top: 15px;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   font-weight: 80;
   font-variant-ligatures: normal;
   font-size: 1.2rem;
   display: inline-block;
   letter-spacing: 1px;
+}
+
+.nav-divider {
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
 }
 
 .NavItem:focus {
@@ -316,7 +322,66 @@ html {
   color: white;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown-arrow {
+  font-size: 0.6rem;
+  margin-left: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.dropdown:hover .dropdown-arrow,
+.sticky-open .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown-content {
+  display: none;
+  list-style: none;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.dropdown:hover .dropdown-content,
+.sticky-open .dropdown-content {
+  display: block;
+}
+
+.sub-item {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #555 !important;
+  padding-top: 5px !important;
+  display: block;
+}
+
+.sub-item:hover {
+  color: #0070f3 !important;
+}
+
 body {
   overflow-x: hidden;
   width: 100%;
+}
+
+.architecture-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #3f0d0d;
+  border: 1.5px solid #3f0d0d;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.architecture-button:hover {
+  background-color: #3f0d0d;
+  color: white;
 }
