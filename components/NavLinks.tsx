@@ -14,7 +14,8 @@ const links = [
     name: "Projects", 
     href: "#",
     subLinks: [
-      { name: "Coalesce Engine", href: "/projects/coalesce-engine" }
+      { name: "Coalesce Engine", href: "/projects/coalesce-engine" },
+      { name: "RAG Engine", href: "/projects/rag" }
     ]
   },
   { type: "divider" },
@@ -22,7 +23,9 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  const [openDropdowns, setOpenDropdowns] = useState<Record<string, boolean>>({});
+  const [openDropdowns, setOpenDropdowns] = useState<Record<string, boolean>>({
+    Projects: true
+  });
 
   const toggleDropdown = (name: string, e: React.MouseEvent) => {
     if (links.find(l => l.name === name)?.href === "#") {
